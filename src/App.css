@@ -1,4 +1,13 @@
 :root {
   --primary-color: #5eead4;
   --secondary-color: #ffffff;
+  --shadow-default: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  font-size: 10px;
+}
+
+.App { 
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
 }

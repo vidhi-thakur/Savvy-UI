@@ -1,0 +1,5 @@
+.card {
+    box-shadow: var(--shadow-default);
+    width: min(300px, 90%);
+    outline: none;
+}
