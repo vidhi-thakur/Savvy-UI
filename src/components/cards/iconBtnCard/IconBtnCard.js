@@ -1,7 +1,8 @@
 import React from 'react';
 import './IconBtnCard.css'
+import { BsShare, BsSuitHeart, BsThreeDotsVertical } from 'react-icons/bs'
 
-function IconBtnCard() {
+function IconBtnCard({ heading, subHeading, content, ...rest }) {
     return <div className='iconBtnCard'>
         {heading && <header>
             <h1 className='heading'>{heading}</h1>
@@ -16,7 +17,14 @@ function IconBtnCard() {
             </section>
         </section>
         <footer className='cardBtn'>
-            {rest.btn}
+            <section>
+                <button>ACTION 1</button>
+                <button>ACTION 2</button>
+            </section>
+            <section>
+                <BsSuitHeart />
+                <BsShare />
+            </section>
         </footer>
     </div>;
 }
