@@ -1,10 +1,10 @@
 import './App.css';
-import ImageCard from './components/cards/imageCard/ImageCard';
+import TextCard from './components/cards/textCard/TextCard';
 
 function App() {
   return (
     <div className="App">
-      <ImageCard
+      <TextCard
         heading="This is card heading"
         subHeading="This is card subheading"
         content="Lorem Ipsum is simply dummy lorem ipsum has been the industry's standard dummy text text of the printing and typesetting industry."
