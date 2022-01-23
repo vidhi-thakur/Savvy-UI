@@ -40,30 +40,37 @@ css for the card
 ``` 
 .textCard {
   box-shadow: var(--shadow-default);
-  width: min(300px, 90%);
+  width: var(--default-card-width);
   outline: none;
   border-radius: var(--border-radius);
-  padding: 1rem;
 }
 
 .heading {
   font-size: var(--heading-default);
   font-weight: 500;
+  padding: 1rem 1rem 0rem;
 }
 
 .subHeading {
   color: rgba(0, 0, 0, 0.54);
   font-size: var(--sabHeading-default);
   margin-top: 0.375rem;
+  padding: 0rem 1rem;
 }
 
 .cardContent {
-  margin-top: 1rem;
+  margin: 1rem 0rem;
   text-align: justify;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.cardContent:hover {
+  background-color: var(--card-hover);
 }
 
 .cardBtn {
-  margin-top: 1rem;
+  margin: 1rem;
 }
 ```
 
