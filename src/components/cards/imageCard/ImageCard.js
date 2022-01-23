@@ -9,7 +9,7 @@ function ImageCard({ heading, subHeading, content, ...rest }) {
         </header>}
         <section className='cardContent'>
             <section>
-                <img className={!heading && "curvedCardImg"} width={"100%"} height='auto' alt="card-image" srcSet="https://picsum.photos/400/200 1x, https://picsum.photos/400/200 2x" />
+                <img className={!heading && "curvedCardImg"} width={"100%"} height='auto' alt="cardImage" srcSet="https://picsum.photos/400/200 1x, https://picsum.photos/400/200 2x" />
             </section>
             <section className='imageCard-text'>
                 <p>{content}</p>
