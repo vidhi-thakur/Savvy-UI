@@ -68,8 +68,8 @@ css for the card
 ```
 
 ### Card with image
-![Uploading image.png…]()
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/72219676/150684457-a5525a06-15e8-4a61-854a-9163ebeeb57c.png) ![image](https://user-images.githubusercontent.com/72219676/150684489-aebb3ff7-77ea-40e8-967e-5af3206be67c.png)
+
 
 The card with image, as shown in the images above has an option of adding a header to it. It has an image, card text and a button. 
 
