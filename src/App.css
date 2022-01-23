@@ -8,6 +8,8 @@
   --heading-default: 1.25rem;
   --subHeading-default: 0.875rem;
   --border-radius: 0.25rem;
+  --default-card-width: min(400px, 90%);
+  --card-hover: #f7f7f7;
 }
 
 * {
