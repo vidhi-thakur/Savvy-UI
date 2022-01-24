@@ -58,5 +58,6 @@
 
   .icon:hover {
     background-color: var(--card-hover);
+    color: var(--primary-color-text);
   }
   
