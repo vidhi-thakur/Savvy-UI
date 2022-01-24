@@ -253,3 +253,112 @@ The card with image, header, buttons and icons.
     background-color: var(--card-hover);
   }
   ```
+
+### Horizontal card
+![image](https://user-images.githubusercontent.com/72219676/150875103-bc973ae1-9561-44d9-9b5c-fc020983c122.png)
+
+Horizontal card with image, title, subtitle, buttons and icons
+
+```
+<div className='horizontalCard'>
+        <header>
+            <aside>
+                <img width={"100%"} height={'100%'} alt="cardImage" srcSet="https://picsum.photos/100/60 1x, https://picsum.photos/70/30 2x" />
+            </aside>
+            <section>
+                <h1 className='heading'>{heading}</h1>
+                <h2 className='subHeading'>{subHeading}</h2>
+            </section></header>
+        <footer className='cardBtn'>
+            <section>
+                <button>ACTION 1</button>
+                <button>ACTION 2</button>
+            </section>
+            <section>
+                <AiOutlineHeart className='icon' />
+                <AiOutlineShareAlt className='icon' />
+                <BsThreeDotsVertical className='icon' />
+            </section>
+        </footer>
+    </div>
+    ```
+    css for the card
+    ```
+    .horizontalCard {
+  box-shadow: var(--shadow-default);
+  width: var(--default-card-width);
+  outline: none;
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+
+.horizontalCard {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  flex-basis: 35%;
+  flex-grow: 1;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+header section {
+  flex-grow: 1;
+}
+
+img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.cardBtn section {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cardBtn {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+header:hover {
+  background-color: var(--card-hover);
+}
+
+.heading {
+  font-size: var(--heading-default);
+  font-weight: 500;
+  padding: 1rem 1rem 0rem;
+}
+
+.subHeading {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: var(--sabHeading-default);
+  margin-top: 0.375rem;
+  padding: 0rem 1rem 1rem;
+}
+
+.icon {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  background-color: var(--card-hover);
+  color: var(--primary-color-text);
+}
+```
