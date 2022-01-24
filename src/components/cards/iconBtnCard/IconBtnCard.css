@@ -3,6 +3,7 @@
     width: var(--default-card-width);
     outline: none;
     border-radius: var(--border-radius);
+    background-color: #fff;
   }
   
   .heading {
@@ -35,8 +36,27 @@
     padding: 1rem;
     text-align: justify;
   }
+
+  .cardBtn section {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
   
   .cardBtn {
     margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .icon {
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .icon:hover {
+    background-color: var(--card-hover);
   }
   

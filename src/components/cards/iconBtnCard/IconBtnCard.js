@@ -1,6 +1,7 @@
 import React from 'react';
 import './IconBtnCard.css'
-import { BsShare, BsSuitHeart, BsThreeDotsVertical } from 'react-icons/bs'
+import { BsThreeDotsVertical } from 'react-icons/bs'
+import { AiOutlineHeart, AiOutlineShareAlt } from 'react-icons/ai'
 
 function IconBtnCard({ heading, subHeading, content, ...rest }) {
     return <div className='iconBtnCard'>
@@ -22,8 +23,9 @@ function IconBtnCard({ heading, subHeading, content, ...rest }) {
                 <button>ACTION 2</button>
             </section>
             <section>
-                <BsSuitHeart />
-                <BsShare />
+                <AiOutlineHeart className='icon' />
+                <AiOutlineShareAlt className='icon' />
+                <BsThreeDotsVertical className='icon' />
             </section>
         </footer>
     </div>;
