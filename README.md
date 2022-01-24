@@ -112,6 +112,7 @@ as props, if heading is not passed, the card does not render the header.
       />
 ```
 
+
 css for the card
 ```
 .imageCard {
@@ -188,9 +189,10 @@ The card with image, header, buttons and icons.
             </section>
         </footer>
     </div>;
-    ```
+```
+    
     css for this card
-    ```
+```
     .iconBtnCard {
     box-shadow: var(--shadow-default);
     width: var(--default-card-width);
@@ -281,9 +283,9 @@ Horizontal card with image, title, subtitle, buttons and icons
             </section>
         </footer>
     </div>
-    ```
+```
     css for the card
-    ```
+```
     .horizontalCard {
   box-shadow: var(--shadow-default);
   width: var(--default-card-width);
