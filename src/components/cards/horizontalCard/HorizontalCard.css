@@ -1,0 +1,77 @@
+.horizontalCard {
+  box-shadow: var(--shadow-default);
+  width: var(--default-card-width);
+  outline: none;
+  border-radius: var(--border-radius);
+  background-color: #fff;
+}
+
+.horizontalCard {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  flex-basis: 35%;
+  flex-grow: 1;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+header section {
+  flex-grow: 1;
+}
+
+img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.cardBtn section {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.cardBtn {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  cursor: pointer;
+  flex-wrap: wrap;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+header:hover {
+  background-color: var(--card-hover);
+}
+
+.heading {
+  font-size: var(--heading-default);
+  font-weight: 500;
+  padding: 1rem 1rem 0rem;
+}
+
+.subHeading {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: var(--sabHeading-default);
+  margin-top: 0.375rem;
+  padding: 0rem 1rem 1rem;
+}
+
+.icon {
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  background-color: var(--card-hover);
+  color: var(--primary-color-text);
+}
