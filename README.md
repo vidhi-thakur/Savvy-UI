@@ -2,6 +2,33 @@
 
 It is a _simple and sophisticated_ component library curated for minimalistic UI needs.
 
+## Button and Link
+### Buttons
+
+Savvy gives you three options to display buttons
+1. Primary button
+2. Primary outlined button, and
+3. Secondary button
+4. Disabled <br />
+![image](https://user-images.githubusercontent.com/72219676/151247245-296616d4-93b6-4005-837f-23c271807bab.png)
+![image](https://user-images.githubusercontent.com/72219676/151247915-f5401d44-c96c-4166-adff-5b096b9a83fd.png)
+![image](https://user-images.githubusercontent.com/72219676/151247994-292743db-2d7b-40c1-b80a-6fed4192c769.png)
+![image](https://user-images.githubusercontent.com/72219676/151248811-7421c096-f7a3-4e59-a275-b02b2f6c7600.png)
+
+This requires to pass a color prop as `primary` to the `Button` component. The component also accepts handleClick prop to do something when the button is clicked. 
+```
+ <Button
+        handleClick={() => console.log("link clicked")}
+        color="primary"
+      >
+        Read more
+      </Button>
+```
+### Link
+Link is similar to secondary button. It passes a handleClick props for to do something when user clicks on the link.
+![image](https://user-images.githubusercontent.com/72219676/151249181-7c44c11a-2d4e-4593-9dd1-870d90d7ca2d.png)
+
+
 ## Cards
 ### Basic card
 ![image](https://user-images.githubusercontent.com/72219676/150677872-643f8129-2830-4f07-a671-707c9ba61603.png)
