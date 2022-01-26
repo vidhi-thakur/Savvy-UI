@@ -1,15 +1,14 @@
 import './App.css';
-import Button from './components/buttons/buttonCTA/Button';
+import LinkButton from './components/buttons/link/LinkButton';
 
 function App() {
   return (
     <div className="App">
-      <Button
+      <LinkButton
         handleClick={() => console.log("link clicked")}
-        color="primary-outlined"
       >
         Read more
-      </Button>
+      </LinkButton>
     </div>
   );
 }
