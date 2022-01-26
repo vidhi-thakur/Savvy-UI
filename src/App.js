@@ -1,13 +1,14 @@
 import './App.css';
-import HorizontalCard from './components/cards/horizontalCard/HorizontalCard';
+import LinkButton from './components/buttons/LinkButton';
 
 function App() {
   return (
     <div className="App">
-      <HorizontalCard
-        heading="This is card heading"
-        subHeading="This is card subheading"
-      />
+      <LinkButton
+        handleClick={() => console.log("link clicked")}
+      >
+        LINK
+      </LinkButton>
     </div>
   );
 }
