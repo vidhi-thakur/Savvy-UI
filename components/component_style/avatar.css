@@ -1,0 +1,33 @@
+.avatar-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.avatar {
+  background-color: var(--primary-color);
+  border-radius: var(--round-border);
+  display: flex;
+  align-items: center;
+}
+
+.avatar img {
+  border-radius: inherit;
+}
+
+.avatar-xs-size {
+  width: 2rem;
+  height: 2rem;
+}
+
+.avatar-sm-size {
+  width: 2.7rem;
+  height: 2.7rem;
+}
+.avatar-md-size {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.avatar-lg-size {
+  width: 5.5rem;
+  height: 5.5rem;
+}
