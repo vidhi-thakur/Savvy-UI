@@ -1,4 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 :root {
+
+    /* different colors for events e.g., success, danger, and warning */
+    --success-light-color: #84f1c9;
+    --success-dark-color: #1b7052;
+
+    --danger-light-color: #fcc5c5;
+    --danger-dark-color: #dc3545;
+
+    --warning-light-color: #ffe7c5;
+    --warning-dark-color: #ff9204;
+
+    --active-color: #1b7052;
+    --inactive-color: #dc3545;
 
     /* primary color with different shades */
   --primary-color: #f0e68c;
@@ -10,8 +25,16 @@
   --primary-color-dark-shade3: #e7d748;
 
   /* font size */
-  --default-font-size: 100%;
+  font-size: 100%;
+
+  /* font family */
+  --default-font-family: 'Roboto', sans-serif;
 
   /* border radius for round elements */
   --round-border: 50%;
+}
+
+html {
+    font-family: var(--default-font-family);
+    box-sizing: border-box;
 }
