@@ -35,6 +35,7 @@
 
   /* font styles */
   font-size: 100%;
+  --sm-font: 60%;
   --default-font-family: "Roboto", sans-serif;
   --default-font-weight: 400;
   --bold-font-weight: 700;
@@ -42,11 +43,14 @@
   /* border radius */
   --round-border: 50%;
   --default-border: 0.25rem;
+
+  /* box shadow */
   --default-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
 
   /* spacing */
-  --xs-spacing: 0.25rem;
+  --xxs-spacing: 0.15rem;
+  --xs-spacing: 0.2rem;
   --sm-spacing: 0.5rem;
   --md-spacing: 1.5rem;
   --lg-spacing: 2rem;
