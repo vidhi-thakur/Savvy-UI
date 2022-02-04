@@ -20,6 +20,7 @@
   --primary-color-light-shade1: #f3eba3;
   --primary-color-light-shade2: #f6f0b9;
   --primary-color-light-shade3: #f9f5d0;
+  --primary-color-light-shade4: #fdfcef;
   --primary-color-dark-shade1: #ede175;
   --primary-color-dark-shade2: #eadc5f;
   --primary-color-dark-shade3: #e7d748;
@@ -54,6 +55,9 @@
   --sm-spacing: 0.5rem;
   --md-spacing: 1.5rem;
   --lg-spacing: 2rem;
+
+  /* button spacing */
+  --btn-padding: 0.4rem 0.8rem;
 }
 
 html {
