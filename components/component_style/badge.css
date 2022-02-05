@@ -13,6 +13,7 @@
     font-weight: var(--bold-font-weight);
     padding: var(--xs-spacing) var(--sm-spacing);
     border-radius: var(--default-border);
+    width: fit-content;
 }
 
 .badge-primary-contained {

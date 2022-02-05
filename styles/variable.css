@@ -34,8 +34,11 @@
   --secondary-color-dark-shade2: #374151;
   --secondary-color-dark-shade3: #1f2937;
 
+  /* hover on white color */
+  --white-hover: #f7f7f7;
+
   /* font styles */
-  font-size: 100%;
+  --default-font-size: 100%;
   --sm-font: 60%;
   --default-font-family: "Roboto", sans-serif;
   --default-font-weight: 400;
@@ -50,6 +53,7 @@
     rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
 
   /* spacing */
+  --default-spacing: 1rem;
   --xxs-spacing: 0.15rem;
   --xs-spacing: 0.2rem;
   --sm-spacing: 0.5rem;
@@ -63,4 +67,10 @@
 html {
   font-family: var(--default-font-family);
   box-sizing: border-box;
+  font-size: var(--default-font-size);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f7f7f7;
 }
