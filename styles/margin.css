@@ -2,8 +2,14 @@
     margin: 1rem;
 }
 
+/* margin right */
 .mr-05 {
     margin-right: 0.5rem;
+}
+
+/* margin left */
+.ml-025 {
+    margin-left: 0.25rem;
 }
 
 .ml-05 {
@@ -14,6 +20,12 @@
     margin-left: 2rem;
 }
 
+/* margin bottom */
 .mb-1 {
     margin-bottom: 1rem;
+}
+
+/* margin top */
+.mt-1 {
+    margin-top: 1rem;
 }

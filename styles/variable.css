@@ -37,6 +37,9 @@
   --secondary-color-dark-shade2: #374151;
   --secondary-color-dark-shade3: #1f2937;
 
+  /* color for rating */
+  --rating-color: #ffb400;
+
   /* hover on white color */
   --white-hover: #f7f7f7;
 
