@@ -17,6 +17,10 @@
     cursor: auto;
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* custom shadow */
 .shadow-none {
     box-shadow: none !important;

@@ -1,4 +1,4 @@
-.alert {
+.toast {
     padding: var(--sm-spacing) var(--default-spacing);
     border-radius: var(--default-border);
     max-width: fit-content;
@@ -7,45 +7,45 @@
     align-items: flex-start;
 }
 
-.alert-success {
+.toast-success {
     color: var(--success-dark-color);
     background-color: var(--success-light-color);
 }
 
-.alert-success-outlined {
+.toast-success-outlined {
     color: var(--success-dark-color);
     border: 0.125rem solid var(--success-dark-color);
     background-color: white;
 }
 
-.alert-danger {
+.toast-danger {
     color: var(--danger-dark-color);
     background-color: var(--danger-light-color);
 }
 
-.alert-danger-outlined {
+.toast-danger-outlined {
     color: var(--danger-dark-color);
     border: 0.125rem solid var(--danger-dark-color);
     background-color: white;
 }
 
-.alert-warning {
+.toast-warning {
     color: var(--warning-dark-color);
     background-color: var(--warning-light-color);
 }
 
-.alert-warning-outlined {
+.toast-warning-outlined {
     color: var(--warning-dark-color);
     border: 0.125rem solid var(--warning-dark-color);
     background-color: white;
 }
 
-.alert-information {
+.toast-information {
     color: var(--information-dark-color);
     background-color: var(--information-light-color);
 }
 
-.alert-information-outlined {
+.toast-information-outlined {
     color: var(--information-dark-color);
     border: 0.125rem solid var(--information-dark-color);
     background-color: white;
