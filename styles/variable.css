@@ -65,6 +65,11 @@
 
   /* button spacing */
   --btn-padding: 0.4rem 0.8rem;
+
+  /* breakpoints */
+  --xs-breakpoint: 350px;
+  --md-breakpoint: 700px;
+  --lg-breakpoint: 1150px;
 }
 
 html {

@@ -3,6 +3,7 @@
     align-items: center;
     margin-top: var(--md-spacing);
     position: relative;
+    width: fit-content;
 }
 
 .badge-container span {
