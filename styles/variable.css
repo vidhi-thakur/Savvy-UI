@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "./reset.css";
+
+:root {
+  /* different colors for events e.g., success, danger, and warning */
+  --success-light-color: #84f1c9;
+  --success-dark-color: #1b7052;
+
+  --danger-light-color: #fcc5c5;
+  --danger-dark-color: #dc3545;
+
+  --warning-light-color: #ffe7c5;
+  --warning-dark-color: #ff9204;
+
+  --information-light-color: #7FD2E6;
+  --information-dark-color: #29438b;
+
+  --active-color: #1b7052;
+  --inactive-color: #dc3545;
+
+  /* primary color with different shades */
+  --primary-color: #f0e68c;
+  --primary-color-light-shade1: #f3eba3;
+  --primary-color-light-shade2: #f6f0b9;
+  --primary-color-light-shade3: #f9f5d0;
+  --primary-color-light-shade4: #fdfcef;
+  --primary-color-dark-shade1: #ede175;
+  --primary-color-dark-shade2: #eadc5f;
+  --primary-color-dark-shade3: #e7d748;
+
+  /* secondary color with different shades */
+  --secondary-color: #6b7280;
+  --secondary-color-light-shade1: #9ca3af;
+  --secondary-color-light-shade2: #d1d5db;
+  --secondary-color-light-shade3: #e5e7eb;
+  --secondary-color-dark-shade1: #4b5563;
+  --secondary-color-dark-shade2: #374151;
+  --secondary-color-dark-shade3: #1f2937;
+
+  /* hover on white color */
+  --white-hover: #f7f7f7;
+
+  /* font styles */
+  --default-font-size: 100%;
+  --sm-font: 60%;
+  --default-font-family: "Roboto", sans-serif;
+  --default-font-weight: 400;
+  --bold-font-weight: 700;
+
+  /* border radius */
+  --round-border: 50%;
+  --default-border: 0.25rem;
+
+  /* box shadow */
+  --default-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+    rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+
+  /* spacing */
+  --default-spacing: 1rem;
+  --xxs-spacing: 0.15rem;
+  --xs-spacing: 0.2rem;
+  --sm-spacing: 0.5rem;
+  --md-spacing: 1.5rem;
+  --lg-spacing: 2rem;
+
+  /* button spacing */
+  --btn-padding: 0.4rem 0.8rem;
+}
+
+html {
+  font-family: var(--default-font-family);
+  box-sizing: border-box;
+  font-size: var(--default-font-size);
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+}

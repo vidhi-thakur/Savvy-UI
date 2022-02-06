@@ -1,0 +1,11 @@
+.br-inherit {
+    border-radius: inherit;
+}
+
+.opacity-05 {
+    opacity: 0.5;
+}
+
+.cursor-auto {
+    cursor: auto;
+}
