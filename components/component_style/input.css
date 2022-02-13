@@ -1,0 +1,19 @@
+.input {
+    padding: var(--sm-spacing);
+    border-radius: var(--default-border);
+    border: 0.125rem solid var(--white-hover);
+    box-shadow: var(--default-shadow);
+    outline: none;
+}
+
+.input:focus {
+    border: 0.125rem solid var(--primary-color);
+}
+
+.input-error {
+    border: 0.125rem solid var(--danger-light-color);
+}
+
+.input-error:focus {
+    border: 0.125rem solid var(--danger-dark-color);
+}
