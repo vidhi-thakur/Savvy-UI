@@ -1,0 +1,33 @@
+.form-link {
+  display: flex;
+  align-items: center;
+  gap: var(--default-spacing);
+  justify-content: center;
+}
+
+.form-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 31.25rem;
+  flex-basis: 95%;
+  background-color: var(--basic-bg);
+  padding-bottom: var(--default-spacing);
+  box-shadow: var(--default-shadow);
+  border-radius: var(--default-border);
+}
+
+.form-heading {
+  text-align: center;
+  padding: var(--default-spacing) 0;
+}
+
+.form-extrafeild {
+    display: flex;
+    justify-content: space-between;
+    padding-right: var(--default-spacing);
+}
+
+.btn-extra {
+    width: -webkit-fill-available;
+    margin-top: 0;
+}

@@ -1,19 +1,36 @@
 .input {
-    padding: var(--sm-spacing);
-    border-radius: var(--default-border);
-    border: 0.125rem solid var(--white-hover);
-    box-shadow: var(--default-shadow);
-    outline: none;
+  padding: var(--sm-spacing);
+  border-radius: var(--default-border);
+  border: 0.125rem solid var(--white-hover);
+  outline: none;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 var(--default-spacing);
 }
 
 .input:focus {
-    border: 0.125rem solid var(--primary-color);
+  border: 0.125rem solid var(--primary-color);
 }
 
 .input-error {
-    border: 0.125rem solid var(--danger-light-color);
+  border: 0.125rem solid var(--danger-light-color);
 }
 
 .input-error:focus {
-    border: 0.125rem solid var(--danger-dark-color);
+  border: 0.125rem solid var(--danger-dark-color);
+}
+
+.checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+}
+
+#checkbox-input, .checkbox > label {
+  cursor: pointer;
 }
