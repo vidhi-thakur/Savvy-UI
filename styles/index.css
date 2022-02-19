@@ -1,0 +1,23 @@
+.about-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  grid-template-areas: "about aside-top"
+  "about aside-top";
+}
+
+.install-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 50vh;
+  grid-template-areas: "install aside-bottom"
+  "install aside-bottom";
+}
+
+.heading-highlight {
+    color: var(--primary-color);
+}
+
+.about {
+    grid-area: about;
+}
