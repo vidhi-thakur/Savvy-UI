@@ -1,15 +1,17 @@
 .about-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 50vh;
+  height: 30vh;
+  column-gap: 4rem;
   grid-template-areas: "about aside-top"
   "about aside-top";
+  padding: var(--md-spacing) var(--lg-spacing);
 }
 
 .install-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 50vh;
+  height: 30vh;
   grid-template-areas: "install aside-bottom"
   "install aside-bottom";
 }
@@ -20,4 +22,18 @@
 
 .about {
     grid-area: about;
+    text-align: justify;
+}
+
+.about-image {
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 3rem;
+}
+
+.about-content {
+    font-size: 1.5rem;
+    opacity: 0.9;
 }
