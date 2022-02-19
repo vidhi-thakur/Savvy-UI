@@ -60,3 +60,34 @@
 }
 
 
+.page {
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+.page:hover {
+  color: var(--primary-color);
+  opacity: 1!important;
+}
+
+.profile-icon {
+  font-size: large;
+}
+
+.profile-icon:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 500px) {
+  .nav-LHS {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+
+  .nav-profile-icons {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: var(--sm-spacing) 0;
+  }
+}
