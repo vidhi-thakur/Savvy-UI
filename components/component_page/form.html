@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="vidhi thakur">
+    <title>Form | Savvy UI</title>
+    <link rel="stylesheet" href="../../styles/main.css" />
+</head>
+
+<body>
+
+    <div class="form-container mt-1">
+        <h2 class="form-heading">Login</h2>
+        <form class="form" action="/">
+            <div class="mb-1 input-container">
+                <label for="name">Enter name </label>
+                <input class="input" id="name" name="name" type="text" placeholder="e.g., Oliver" />
+            </div>
+            <div class="mb-1 input-container">
+                <label for="email">Enter email </label>
+                <input class="input" id="email" name="email" type="text" placeholder="e.g., oliver@gmail.com" />
+            </div>
+            <div class="form-extrafeild">
+                <div class="mb-1 checkbox input-container ">
+                    <input id="checkbox-input" name="checkbox-input" type="checkbox" /><label
+                        for="checkbox-input">Remember
+                        me</label>
+                </div>
+                <div>Forgot password?</div>
+            </div>
+            <button class="btn btn-primary-contained btn-extra">login</button>
+        </form>
+        <a href="/" class="form-link">New user? Register here <i class='fas fa-angle-right'></i></a>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/ba1ac74ca9.js" crossorigin="anonymous"></script>
+
+</html>
