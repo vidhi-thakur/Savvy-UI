@@ -28,6 +28,9 @@
 }
 
 .btn-extra {
+  /* for browsers that support webkit */
     width: -webkit-fill-available;
+    /* for browsers that do not support webkit */
+    width: -moz-available;
     margin-top: 0;
 }

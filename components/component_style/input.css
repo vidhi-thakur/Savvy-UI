@@ -32,6 +32,6 @@
   width: fit-content;
 }
 
-#checkbox-input, .checkbox > label {
+.checkbox-input, .checkbox > label {
   cursor: pointer;
 }
