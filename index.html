@@ -35,13 +35,20 @@
             </span>
         </div>
     </nav>
-    <main>
+    <main class="savvy-info">
 
         <!-- about savvy UI - intent behind UI -->
         <section class="about-section">
-            <div class="about pt-1 pl-2 m-auto">
+            <div class="about pt-1 m-auto">
                 <h2 class="about-heading">Build clean UI with <span class="heading-highlight">Savvy</span></h2>
-                <p class="about-content mt-1">It is a <i>simple and sophisticated</i> component library curated for minimalistic UI needs. Just copy the components and customize it according to your needs.</p>
+                <p class="about-content mt-1">It is a <i>simple and sophisticated</i> component library curated for
+                    minimalistic UI needs. Just copy the components and customize it according to your needs.</p>
+                <p class="about-content mt-1"> Check the documentation to understand more about the UI.</p>
+                <div>
+                    <a href="./pages/documentation.html">
+                        <button class="btn btn-primary-contained btn-doc">Documentation</button>
+                    </a>
+                </div>
             </div>
             <aside class="about-image mt-1">
                 <img height="auto" width="70%" src="./assets/images/landing_page.svg" alt="landing page image">
@@ -49,8 +56,21 @@
         </section>
 
         <!-- how to install -->
-        <section class="install-section">
+        <section id="installation" class="install-section mt-1">
 
+            <div class="install pt-1">
+                <h2>How installation works?</h2>
+                <p class="install-content mt-1">Copy paste the code of the component you want to use and add a link
+                    tag in the head section. </p>
+            </div>
+
+            <aside class="aside-bottom">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28155%2C155%2C155%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=491.5&ds=true&dsyoff=19px&dsblur=68px&wc=true&wa=false&pv=20px&ph=10px&ln=false&fl=1&fm=Hack&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253C%21--%2520Copy%2520paste%2520this%2520link%2520in%2520head%2520tag%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fsavvy-doc.netlify.app%252Fstyles%252Fmain.css%2522%253E%250A"
+                    style="width: 396px; height: 226px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </aside>
         </section>
 
     </main>
