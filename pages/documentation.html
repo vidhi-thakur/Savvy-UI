@@ -181,6 +181,11 @@
                     <div class="badge-container">
                         <i class="fas fa-cart-plus badge icon-badge"></i>
                     </div>
+
+                    <div class="avatar avatar-xs">
+                        <img src="https://avatars.dicebear.com/api/adventurer/thakur.svg" alt="avatar" />
+                        <span class="avatar-xs-badge avatar-badge avatar-online"></span>
+                    </div>
                 </div>
             </div>
 
@@ -226,35 +231,45 @@
 
         <!-- button -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Button</h2>
+            <p class="about-component">Buttons are also called as call to action. We have range of buttons and their
+                states. You may use a tag or button element, you need to add respective classes, and you are good to go.
+            </p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of buttons</h3>
+            <p class="example-description">Whenever you want your user to click on a link or button, use primary style
+                buttons.</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+
+                <div class="example-container">
+                    <button class="btn btn-primary-contained">primary button</button>
+                    <button class="btn btn-primary-outlined">primary button</button>
+                    <button class="btn btn-primary-text">primary button</button>
+                    <button class="btn btn-primary-link">primary link</button>
+                </div>
+            </div>
+
+            <p class="py-1">some text here</p>
+
+            <div class="component-example p-1">
+
+                <div class="example-container">
+                    <button class="btn btn-primary-contained"><i class="fas fa-cart-plus"></i></button>
+                    <button class="btn btn-primary-outlined"><i class="fas fa-cart-plus"></i></button>
+                </div>
+
+            </div>
+
+            <p class="py-1">some text here</p>
+
+            <div class="component-example p-1">
+
+                <div class="example-container">
+                    <button disabled="disabled" class="btn btn-disabled-primary">primary button</button>
+                    <button disabled="disabled" class="btn btn-disabled-secondary">primary button</button>
+                </div>
+
             </div>
 
             <p class="py-1">some text here</p>
@@ -264,36 +279,217 @@
             </div>
         </section>
 
+        <!-- card -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Card</h2>
+            <p class="about-component">Card are used to show user related data collectively, like product details.</p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of cards</h3>
+            <p class="example-description">Card's image may have a margin or it can be full-bleed. By default card's
+                images are full-bleed. If you want image to have margin, you can use default-container class.
+                Copy below code and put your desired text and image and you are good to go.</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+                <div class="example-container">
+                    <!-- vertical card -->
+                    <div class="card card-vertical">
+                        <img loading="lazy" class="card-image-horizontal"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="card-textContainer">
+                            <h3 class="pb-1">Pink Dress</h3>
+                            <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small>
+                            </p>
+                            <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                                closures
+                            </p>
+                        </div>
+                        <div class="card-btnContainer">
+                            <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                                cart</button>
+                        </div>
+                    </div>
+                    <!-- vertical card with icon badge -->
+                    <div class="card card-vertical">
+                        <div class="badge-container card-customBadge">
+                            <i class="fas fa-heart badges icon-badge badge-round"></i>
+                        </div>
+                        <img loading="lazy" class="card-image-horizontal"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="card-textContainer">
+                            <h3 class="pb-1">Pink Dress</h3>
+                            <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small>
+                            </p>
+                            <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                                closures
+                            </p>
+                        </div>
+                        <div class="card-btnContainer">
+                            <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                                cart</button>
+                        </div>
+                    </div>
+                    <!-- vertical card with text badge -->
+                    <div class="card card-vertical">
+                        <span class="badge badge-primary-contained card-customBadge">New</span>
+                        <img loading="lazy" class="card-image-horizontal"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="card-textContainer">
+                            <h3 class="pb-1">Pink Dress</h3>
+                            <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small>
+                            </p>
+                            <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                                closures
+                            </p>
+                        </div>
+                        <div class="card-btnContainer">
+                            <button class="btn btn-primary-contained"><i class="fas fa-cart-plus mr-05"></i> add to
+                                cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="py-1">some text here</p>
+
+            <div class="component-example p-1">
+                <div class="example-container">
+                    <!-- horizontal card -->
+                    <div class="card card-horizontal">
+                        <img loading="lazy" class="card-image-vertical"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="br-inherit">
+                            <div class="card-textContainer br-inherit">
+                                <h3 class="pb-1">Pink Dress</h3>
+                                <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil
+                                        Picks</small></p>
+                                <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless,
+                                    button closures
+                                </p>
+                            </div>
+                            <div class="card-btnContainer br-inherit">
+                                <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                                    cart</button>
+                                <button class="btn btn-primary-outlined">move to wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- horizontal card -->
+                    <div class="card card-horizontal">
+                        <span class="badge badge-primary-contained card-customBadge-horizontal">New</span>
+                        <img loading="lazy" class="card-image-vertical"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="br-inherit">
+                            <div class="card-textContainer br-inherit">
+                                <h3 class="pb-1">Pink Dress</h3>
+                                <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil
+                                        Picks</small></p>
+                                <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless,
+                                    button closures
+                                </p>
+                            </div>
+                            <div class="card-btnContainer br-inherit">
+                                <button class="btn btn-primary-contained"><i class="fas fa-cart-plus  mr-05"></i> add to
+                                    cart</button>
+                                <button class="btn btn-primary-outlined">move to wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="py-1">some text here</p>
+
+            <div class="component-example p-1">
+                <div class="example-container">
+                    <div class="card card-vertical">
+                        <div class="card-customBadge badge-dismiss">
+                            <i class="fa fa-close"></i>
+                        </div>
+                        <img loading="lazy" class="card-image-horizontal"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="card-textContainer">
+                            <h3 class="pb-1">Pink Dress</h3>
+                            <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small>
+                            </p>
+                            <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                                closures
+                            </p>
+                        </div>
+                        <div class="card-btnContainer">
+                            <button class="btn btn-primary-contained"><i class="fas fa-cart-plus mr-05"></i> add to
+                                cart</button>
+                        </div>
+                    </div>
+
+                    <div class="card card-vertical">
+                        <img loading="lazy" class="card-image-horizontal opacity-05"
+                            src="https://th.bing.com/th/id/OIP.327gZuChoI2kICVOvypyGgHaHc?w=219&h=220&c=7&r=0&o=5&dpr=1.25&pid=1.7"
+                            alt="dress" />
+                        <div class="card-textContainer opacity-05 c">
+                            <h3 class="pb-1">Pink Dress</h3>
+                            <p class="pb-1">Girls White & Blue Printed Dress <br /> <small>Sold by: Lil Picks</small>
+                            </p>
+                            <p>White and blue printed playsuit with knot detail, has a shirt collar, sleeveless, button
+                                closures
+                            </p>
+                        </div>
+                        <div class="card-btnContainer cursor-auto opacity-05">
+                            <button class="btn btn-primary-contained"><i class="fas fa-cart-plus mr-05"></i> add to
+                                cart</button>
+                        </div>
+                        <div>
+                            <p class="text-overlay">Out of stock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="component-code p-1">
+                code here - iframw
+            </div>
+        </section>
+
+        <!-- form -->
+        <section class="component p-1">
+            <h2 class="component-heading">Form</h2>
+            <p class="about-component">To submit user information</p>
+
+            <h3 class="example-heading">Example of forms</h3>
+            <p class="example-description">Froms are available in 1 type</p>
+
+            <div class="component-example p-1">
+                <div class="example-container">
+                    <div class="form-container mt-1">
+                        <h2 class="form-heading">Login</h2>
+                        <form class="form" action="/">
+                            <div class="mb-1 input-container">
+                                <label for="name">Enter name </label>
+                                <input class="input" id="name" name="name" type="text" placeholder="e.g., Oliver" />
+                            </div>
+                            <div class="mb-1 input-container">
+                                <label for="email">Enter email </label>
+                                <input class="input" id="email" name="email" type="text"
+                                    placeholder="e.g., oliver@gmail.com" />
+                            </div>
+                            <div class="form-extrafeild">
+                                <div class="mb-1 checkbox input-container ">
+                                    <input id="checkbox-input" name="checkbox-input" type="checkbox" /><label
+                                        for="checkbox-input">Remember
+                                        me</label>
+                                </div>
+                                <div>Forgot password?</div>
+                            </div>
+                            <button class="btn btn-primary-contained btn-extra">login</button>
+                        </form>
+                        <a href="/" class="form-link">New user? Register here <i class='fas fa-angle-right'></i></a>
+                    </div>
+                </div>
             </div>
 
             <p class="py-1">some text here</p>
@@ -303,36 +499,84 @@
             </div>
         </section>
 
+        <!-- image -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Images</h2>
+            <p class="about-component">Images can be responsive to fit the parent's width, and also can be customised to
+                be round shaped.</p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of images</h3>
+            <p class="example-description">You can add class img-responsive to make your image fit the width of
+                container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the
+                aspect ratio, you will have to crop the image.</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+                <div class="example-container">
+                    <div class="image-container">
+                        <img loading="lazy" class="image"
+                            src="https://wallup.net/wp-content/uploads/2016/03/10/326032-photography-nature-plants-trees-landscape-road-Sun-summer.jpg"
+                            alt="landscape" />
+                    </div>
+                </div>
+            </div>
+
+            <p class="py-1">some text here</p>
+
+            <div class="component-example p-1">
+                <div class="example-container">
+                    <img loading="lazy" class="image image-round"
+                        src="https://wallup.net/wp-content/uploads/2016/03/10/326032-photography-nature-plants-trees-landscape-road-Sun-summer.jpg"
+                        alt="landscape" />
+                </div>
+            </div>
+
+            <div class="component-code p-1">
+                code here - iframw
+            </div>
+        </section>
+
+        <!-- input -->
+        <section class="component p-1">
+            <h2 class="component-heading">Input</h2>
+            <p class="about-component">Inputs are use for user interaction.</p>
+
+            <h3 class="example-heading">Example of inputs</h3>
+            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert.
+            </p>
+
+            <div class="component-example p-1">
+                <div class="mb-1 input-container">
+                    <label for="input">Enter email: </label>
+                    <input class="input" id="input" type="text" placeholder="e.g., oliver@gmail.com" />
+                </div>
+                <div class="mb-1 input-container">
+                    <label for="input">Enter email: </label>
+                    <input class="input input-error" id="input" type="text" placeholder="e.g., oliver@gmail.com" />
+                </div>
+                <div class="mb-1 input-container">
+                    <label for="input">Enter message: </label>
+                    <textarea class="input" id="textarea-input" name="textarea-input" rows="4" cols="50"
+                        placeholder="enter your message"></textarea>
+                </div>
+                <div class="mb-1 input-container">
+                    <label for="input">Enter message: </label>
+                    <textarea class="input input-error" id="textarea-input" name="textarea-input" rows="4" cols="50"
+                        placeholder="enter your message"></textarea>
+                    <div class="mb-1 input-container">
+                        <label for="input">Enter email: </label>
+                        <input disabled="disabled" class="input" id="input" type="text"
+                            placeholder="e.g., oliver@gmail.com" />
+                    </div>
+                    <div class="mb-1 input-container">
+                        <label for="input">Enter message: </label>
+                        <textarea disabled="disabled" class="input" id="textarea-input" name="textarea-input" rows="4"
+                            cols="50" placeholder="enter your message"></textarea>
+                    </div>
+                    <div class="mb-1 checkbox input-container ">
+                        <input class="checkbox-input" id="checkbox-input" type="checkbox" /><label
+                            for="checkbox-input">Remember me</label>
+                    </div>
+                </div>
             </div>
 
             <p class="py-1">some text here</p>
@@ -342,36 +586,65 @@
             </div>
         </section>
 
+        <!-- navbar -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Navigation bar</h2>
+            <p class="about-component">Navigation bar is used to navigate through the web apps or websites. This
+                navigation component is responsive. It is a hamburger menu in medium and small devices.</p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of navigation bar</h3>
+            <p class="example-description">Navigation is broken in 4 parts</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+                <nav class="nav">
+                    <div class="avatar avatar-sm">
+                        <img src="../../assets/images/ECom-logo.svg" alt="avatar" />
+                    </div>
+                    <div class="nav-serch">
+                        <i class="fas fa-search opacity-07"></i>
+                        <input class="nav-input" type="text" placeholder="Search" />
+                    </div>
+                    <div class="nav-links">
+                        <button class="btn btn-primary-contained shadow-none">login</button>
+                        <span class="position-rel nav-icon-box">
+                            <i class="fas fa-user-alt nav-icon"></i><span
+                                class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                        </span>
+                        <span class="position-rel nav-icon-box">
+                            <i class="fas fa-heart nav-icon"></i><span
+                                class="badge status-badge badge-primary-contained badge-round sm-badge">5</span>
+                        </span>
+                        <span class="position-rel nav-icon-box">
+                            <i class="fas fa-cart-plus nav-icon"></i><span
+                                class="badge status-badge badge-primary-contained badge-round sm-badge">9</span>
+                        </span>
+                    </div>
+                </nav>
+
+                <nav class="nav mt-1">
+                    <div class="nav-LHS">
+                        <h1 class="nav-brandName p-1">Savvy UI</h1>
+                        <div class="nav-pages">
+                            <a href="/">
+                                <span class="page active-page">Installation</span>
+                            </a>
+                            <a href="/">
+                                <span class="ml-05 page">Docs</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav-links">
+                        <span class="position-rel nav-icon-box">
+                            <i class="fa fa-github nav-icon profile-icon" aria-hidden="true"></i>
+                        </span>
+                        <span class="position-rel nav-icon-box">
+                            <i class="fa fa-linkedin nav-icon profile-icon" aria-hidden="true"></i>
+                        </span>
+                        <span class="position-rel nav-icon-box">
+                            <i class="fa fa-twitter nav-icon profile-icon" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                </nav>
             </div>
 
             <p class="py-1">some text here</p>
@@ -381,36 +654,33 @@
             </div>
         </section>
 
+        <!-- rating -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Rating</h2>
+            <p class="about-component">Rating components can be used as read-only badge or in reviews section. Can be
+                used in reviews section as form too.</p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of ratings</h3>
+            <p class="example-description">There are one type of rating i.e., input read-only</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+                <div class="example-container">
+                    <div>
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star opacity-05 ml-025 cursor-pointer"></i>
+                    </div>
+
+                    <div">
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star rating-active opacity-05 ml-025 cursor-pointer"></i>
+                        <i class="fa fa-star opacity-05 ml-025 cursor-pointer"></i>
+                </div>
+            </div>
             </div>
 
             <p class="py-1">some text here</p>
@@ -420,114 +690,33 @@
             </div>
         </section>
 
+        <!-- toast -->
         <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
+            <h2 class="component-heading">Toast</h2>
+            <p class="about-component">This component can be used for toast or snackbar component. Toast is mostly used
+                to show feedback message. Snackbar is to used show message that need user action.</p>
 
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
+            <h3 class="example-heading">Example of toast</h3>
+            <p class="example-description">Add toast class to wrapper. Toast has 3 themes, for error, success, warning,
+                add toast-success, toast-error, toast-inform class to style the theme.</p>
 
             <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
-            </div>
-
-            <p class="py-1">some text here</p>
-
-            <div class="component-code p-1">
-                code here - iframw
-            </div>
-        </section>
-
-        <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
-
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
-
-            <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
-            </div>
-
-            <p class="py-1">some text here</p>
-
-            <div class="component-code p-1">
-                code here - iframw
-            </div>
-        </section>
-
-        <section class="component p-1">
-            <h2 class="component-heading">Alert</h2>
-            <p class="about-component">Alerts are used to attract user's attention for important information without
-                interrupting the user's
-                flow.</p>
-
-            <h3 class="example-heading">Example of alerts</h3>
-            <p class="example-description">Alerts are available in 5 types- success alert, error alert, warning alert,
-                primary alert, secondary
-                alert.
-                To use this alert just use class name alert-box and also add class according to alert type-
-                alert-primary, alert-secondary, alert-danger, alert-success, alert-warning. (e.g.class="alert-box
-                alert-primary")</p>
-
-            <div class="component-example p-1">
-                <p class="alert alert-success"><i class="fas fa-check mr-05"></i> This is an example of success
-                    alert</p>
-                <p class="alert alert-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of
-                    success
-                    outlined alert</p>
-                <p class="alert alert-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
-                    danger alert</p>
-                <p class="alert alert-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
-                    example of danger outlined alert</p>
-                <p class="alert alert-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
-                    alert</p>
-                <p class="alert alert-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
-                    warning outlined alert</p>
-                <p class="alert alert-information">This is an example of information alert</p>
-                <p class="alert alert-information-outlined">This is an example of information outlined alert</p>
+                <p class="toast toast-success"><i class="fas fa-check mr-05"></i> This is an example of success toast <i
+                        class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-success-outlined"><i class="fas fa-check mr-05"></i> This is an example of success
+                    outlined toast <i class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-danger"><i class="fas fa-exclamation-triangle mr-05"></i> This is an example of
+                    danger toast <i class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-danger-outlined"><i class="fas fa-exclamation-triangle mr-05"></i> This is an
+                    example of danger outlined toast <i class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-warning"><i class="fas fa-exclamation mr-05"></i> This is an example of warning
+                    toast <i class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-warning-outlined"><i class="fas fa-exclamation mr-05"></i> This is an example of
+                    warning outlined toast <i class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-information">This is an example of information toast <i
+                        class="fa fa-close ml-2 cursor-pointer"></i></p>
+                <p class="toast toast-information-outlined">This is an example of information outlined toast <i
+                        class="fa fa-close ml-2 cursor-pointer"></i></p>
             </div>
 
             <p class="py-1">some text here</p>
