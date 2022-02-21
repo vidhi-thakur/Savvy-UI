@@ -24,7 +24,10 @@ It is a _simple and sophisticated_ component library curated for minimalistic UI
 ## How to install
 Copy paste the code of the component you want to use and add a link tag in the head section.
 
-<iframe src="https://carbon.now.sh/embed?bg=rgba%28155%2C155%2C155%2C1%29&t=a11y-dark&wt=none&l=htmlmixed&width=491.5&ds=true&dsyoff=19px&dsblur=68px&wc=true&wa=false&pv=20px&ph=10px&ln=false&fl=1&fm=Hack&fs=13px&lh=156%25&si=false&es=2x&wm=false&code=%253C%21--%2520Copy%2520paste%2520this%2520link%2520in%2520head%2520tag%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fsavvy-doc.netlify.app%252Fstyles%252Fmain.css%2522%253E%250A" style="width: 396px; height: 226px; border:0; transform: scale(1); overflow:hidden;" sandbox="allow-scripts allow-same-origin"></iframe>
+```
+<!-- Copy paste this link in head tag -->
+<link rel="stylesheet" href="https://savvy-doc.netlify.app/styles/main.css">
+```
 
 #### Live project URL: https://savvy-doc.netlify.app/ 
 
