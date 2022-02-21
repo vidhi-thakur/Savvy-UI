@@ -1,11 +1,27 @@
 .p-1 {
-    padding: 1rem;
+    padding: var(--default-spacing);
 }
 
 .p-05 {
-    padding: 0.5rem;
+    padding: var(--sm-spacing);
 }
 
+/* padding top and bottom */
+.py-1 {
+    padding: var(--default-spacing) 0;
+}
+
+/* padding top */
+.pt-1 {
+    padding-top: var(--default-spacing);
+}
+
+/* padding left */
+.pl-2 {
+    padding-left: var(--lg-spacing);
+}
+
+/* padding bottom */
 .pb-1 {
-    padding-bottom: 1rem;
+    padding-bottom: var(--default-spacing);
 }

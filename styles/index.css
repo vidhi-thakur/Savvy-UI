@@ -1,0 +1,64 @@
+.about-section,
+.install-section {
+  display: flex;
+  column-gap: 4rem;
+  padding: var(--md-spacing) var(--lg-spacing);
+}
+
+.heading-highlight {
+  color: var(--primary-color);
+}
+
+.about,
+.install {
+  flex-basis: 60%;
+  text-align: justify;
+  padding-left: var(--lg-spacing);
+}
+
+.aside-bottom > iframe {
+  width: 100% !important;
+}
+
+.about-image,
+.aside-bottom {
+  flex-basis: 40%;
+  text-align: center;
+}
+
+.about-heading {
+  font-size: 3rem;
+}
+
+.about-content,
+.install-content {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.savvy-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-doc {
+  margin-left: 0 !important;
+}
+
+@media screen and (max-width: 1120px) {
+  
+  .install-section {
+    flex-direction: column;
+    row-gap: var(--lg-spacing);
+  }
+
+  .about-section {
+    flex-direction: column-reverse;
+    row-gap: var(--lg-spacing);
+  }
+
+  .about,
+  .install {
+    padding-left: 0;
+  }
+}

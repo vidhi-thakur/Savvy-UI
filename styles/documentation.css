@@ -1,0 +1,56 @@
+.component {
+    border-bottom: 1px solid var(--secondary-color);
+}
+
+.component:last-child {
+    border-bottom: none;
+}
+
+.component-heading {
+  font-size: 3rem;
+}
+
+.about-component,
+.example-description {
+  padding: var(--sm-spacing) 0 var(--default-spacing);
+  text-align: justify;
+}
+
+.example-heading {
+  font-size: 1.5rem;
+}
+
+.component-example {
+  border: 1px solid var(--primary-color-light-shade2);
+  border-radius: var(--default-border);
+  background-color: var(--basic-bg);
+  overflow: auto;
+  max-width: 100%;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.component-example::-webkit-scrollbar {
+  display: none;
+}
+
+.component-code > iframe {
+  width: 100% !important;
+  max-height: 15rem;
+  overflow: auto;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.component-code {
+  text-align: center;
+}
+
+.example-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
