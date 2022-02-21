@@ -51,6 +51,14 @@
   .nav-serch {
     display: none;
   }
+
+  .nav-LHS {
+    justify-content: space-between;
+  }
+
+  .nav {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -63,6 +71,7 @@
   display: flex;
   align-items: center;
   gap: var(--md-spacing);
+  flex: 1;
 }
 
 .page {
