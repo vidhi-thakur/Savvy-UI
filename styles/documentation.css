@@ -1,0 +1,18 @@
+.component-heading {
+    font-size: 3rem;
+}
+
+.about-component, .example-description {
+    padding: var(--sm-spacing) 0 var(--default-spacing);
+    text-align: justify;
+}
+
+.example-heading {
+    font-size: 1.5rem;
+}
+
+.component-example {
+    border: 1px solid var(--primary-color-light-shade2);
+    border-radius: var(--default-border);
+    background-color: var(--basic-bg);
+}
