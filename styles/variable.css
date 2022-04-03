@@ -19,14 +19,14 @@
   --inactive-color: #dc3545;
 
   /* primary color with different shades */
-  --primary-color: #f0e68c;
-  --primary-color-light-shade1: #f3eba3;
-  --primary-color-light-shade2: #f6f0b9;
-  --primary-color-light-shade3: #f9f5d0;
-  --primary-color-light-shade4: #fdfcef;
-  --primary-color-dark-shade1: #ede175;
-  --primary-color-dark-shade2: #eadc5f;
-  --primary-color-dark-shade3: #e7d748;
+  --primary-color: #8b5cf6;
+  --primary-color-light-shade1: #a78bfa;
+  --primary-color-light-shade2: #c4b5fd;
+  --primary-color-light-shade3: #ddd6fe;
+  --primary-color-light-shade4: #ede9fe;
+  --primary-color-dark-shade1: #7c3aed;
+  --primary-color-dark-shade2: #6d28d9;
+  --primary-color-dark-shade3: #5b21b6;
 
   /* secondary color with different shades */
   --secondary-color: #6b7280;
